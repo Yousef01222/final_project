@@ -1,4 +1,4 @@
-import 'package:final_progicet/view/chat.dart';
+import 'package:final_progicet/view/company.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +10,9 @@ class FinalProgiect extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: ChatPage());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: CompanyScreen(),
+    );
   }
 }
